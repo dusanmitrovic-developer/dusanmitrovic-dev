@@ -1,26 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
-
+        
 body {
     background-color: #1a1a1a;
-    font-family: 'Playfair Display', serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
-
-@keyframes gentle-float {
-    0% { transform: rotate(-5deg) translateY(0); }
-    50% { transform: rotate(-5deg) translateY(-10px); }
-    100% { transform: rotate(-5deg) translateY(0); }
-}
-
+        
 h1 {
     color: white;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
-    transform: rotate(-5deg);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: 4rem;
-    animation: gentle-float 4s ease-in-out infinite;
+    font-size: 3rem;
 }
