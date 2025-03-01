@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.7.0] - 2025-03-28
+### Added
+- Text shadow added for depth.
+
 ## [0.6.0] - 2025-03-28
 ### Added
 - Text centered on the page.
