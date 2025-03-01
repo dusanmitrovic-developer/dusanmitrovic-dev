@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.8.0] - 2025-03-28
+### Added
+- Increased font size.
+
 ## [0.7.0] - 2025-03-28
 ### Added
 - Text shadow added for depth.
