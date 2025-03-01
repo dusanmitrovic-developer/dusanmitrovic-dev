@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.6.0] - 2025-03-28
+### Added
+- Text centered on the page.
+
 ## [0.5.0] - 2025-03-28
 ### Added
 - Text tilt transformation applied.
