@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.4.0] - 2025-03-28
+### Added
+- Styles extracted to a separate CSS file.
+
 ## [0.3.1] - 2025-03-28
 ### Added
 - White text added for readability.
