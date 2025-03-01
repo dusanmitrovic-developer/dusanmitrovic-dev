@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.5.0] - 2025-03-28
+### Added
+- Text tilt transformation applied.
+
 ## [0.4.1] - 2025-03-28
 ### Added
 - Elegant font added.
