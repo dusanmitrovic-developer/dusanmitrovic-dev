@@ -6,6 +6,10 @@
 ### Changed
 - HTML structure remodeled.
 
+## [0.9.0] - 2025-03-28
+### Changed
+- HTML structure remodeled.
+
 ## [0.8.0] - 2025-03-28
 ### Added
 - Increased font size.
@@ -45,23 +49,3 @@
 ## [0.1.0] - 2025-03-28
 ### Added
 - Initial project structure setup.
-
-### Added
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Changed
-- HTML structure remodeled
-- Style cleaned and finalized
-
-### Released
-- "Hello World" web page placeholder prepared
