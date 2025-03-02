@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-03-28
+### Release
+- "Hello World" web page placeholder prepared.
+
 ## [0.9.0] - 2025-03-28
 ### Changed
 - HTML structure remodeled.
