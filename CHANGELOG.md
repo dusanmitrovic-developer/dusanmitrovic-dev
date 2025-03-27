@@ -2,6 +2,19 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2025-03-27
+### Changed
+- Background color darkened to `#121212`.
+- Heading text color softened to `#f0f0f0`.
+- Increased letter spacing for the main heading.
+- Adjusted text shadow parameters for the main heading.
+- Updated the HTML page title for better description.
+- Updated `body` background to use the new CSS variable.
+- Updated `h1` color to use the new CSS variable.
+- Updated `p` color to use the new CSS variable.
+- Made heading font size responsive using `clamp()`.
+- Wrapped primary page content within a `<main>` HTML5 semantic tag.
+
 ## [1.0.0] - 2025-03-28
 ### Release
 - "Hello World" web page placeholder prepared.
