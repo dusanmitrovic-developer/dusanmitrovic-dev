@@ -21,6 +21,12 @@ h1 {
     margin: 0;
 }
 
+h1:hover {
+    color: #b0b0b0;
+    cursor: pointer; /* Indicate interactivity */
+    transition: color 0.3s ease;
+}
+
 p {
     color: #cccccc; /* Slightly dimmer than heading */
     font-family: 'Cormorant Garamond', serif;
