@@ -1,13 +1,18 @@
 /* Using Cormorant Garamond with italic style */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap');
 
-/* Base body styling and centering */
 :root {
     --bg-color: #121212;
     --heading-color: #f0f0f0;
     --subtitle-color: #cccccc;
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Base body styling and centering */
 body {
     background-color: var(--bg-color);
     display: flex;
@@ -15,6 +20,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: 'Cormorant Garamond', serif; /* Base font for consistency */
+}
+
+main {
+    text-align: center;
 }
 
 h1 {
@@ -22,46 +32,27 @@ h1 {
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     font-weight: 600;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    letter-spacing: 1.5px; /* Increased spacing */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Refined shadow */
+    font-size: clamp(2.5rem, 8vw, 4.5rem); /* Responsive font size */
     margin: 0;
-    animation: fadeIn 1s ease-out 0.2s backwards; /* delay slightly */
+    animation: fadeIn 1s ease-out 0.2s backwards;
 }
 
 h1:hover {
-    color: #b0b0b0;
-    cursor: pointer;
-    /* Indicate interactivity */
+    color: #b0b0b0; /* Slightly different color on hover */
+    cursor: pointer; /* Indicate interactivity */
     transition: color 0.3s ease;
 }
 
 p {
     color: var(--subtitle-color);
-    /* Slightly dimmer than heading */
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
-    font-weight: 500;
-    /* Lighter weight than heading */
+    font-weight: 500; /* Lighter weight */
     font-size: 1.5rem;
-    margin-top: 0.5rem;
+    margin-top: 0.5rem; /* Spacing from heading */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     letter-spacing: 0.5px;
-    animation: fadeIn 1s ease-out 0.4s backwards; /* delay more */
-}
-
-main {
-    text-align: center;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation: fadeIn 1s ease-out 0.4s backwards;
 }
