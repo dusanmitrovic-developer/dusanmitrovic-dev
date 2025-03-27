@@ -1,6 +1,7 @@
 /* Using Cormorant Garamond with italic style */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap');
-        
+
+/* Base body styling and centering */
 :root { 
     --bg-color: #121212;
     --heading-color: #f0f0f0;
