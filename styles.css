@@ -4,6 +4,7 @@
 :root { 
     --bg-color: #121212;
     --heading-color: #f0f0f0;
+    --subtitle-color: #cccccc;
 }
 
 body {
@@ -33,7 +34,7 @@ h1:hover {
 }
 
 p {
-    color: #cccccc; /* Slightly dimmer than heading */
+    color: var(--subtitle-color); /* Slightly dimmer than heading */
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     font-weight: 500; /* Lighter weight than heading */
