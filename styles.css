@@ -1,8 +1,10 @@
 /* Using Cormorant Garamond with italic style */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap');
         
+:root { --bg-color: #121212; }
+
 body {
-    background-color: #121212;
+    background-color: var(--bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
